@@ -13,7 +13,6 @@
        <?php
 		 include("./layout/header_nav.php")
 		 ?>
-        
         <div class="top_bg">
             <div class="top_bgOpacity">
                 <div class="top_text">
