@@ -10,12 +10,13 @@
 .top_bg p{padding-top: 15px; font-size: 20px; display: block; }
 
 /*box01*/
-.box01{width: 100%; text-align: center; padding: 40px 0; background-color: #def2ff; color: #666}
+.box01{width: 100%; text-align: center; padding: 40px 0; background-color: #def2ff;}
+.box01 .textBox{color: #666}
 .box01 .title{margin-top: 10px;}
-.box01 p{line-height:18.5px }
+.box01 p{line-height:18.5px; color: #666}
 
 /*box02*/
-.box02{width: 100%; height: 500px; text-align: center; position: relative; background: url('../img/img2.jpg') no-repeat center 0px fixed;}
+.box02{width: 100%; height: 500px; text-align: center; position: relative; background: url('../img/img2.jpg') no-repeat center 0px fixed; color: }
 .box02 .title{padding-top: 80px;}
 .box02_bg{background: #fff; width: 100%; height: 100%; background-color:rgba(149, 180, 195, 0.5); position: relative; z-index: 100;}
 .box02 .box02_icon {width: 600px; list-style: none; margin: 0 auto; }
