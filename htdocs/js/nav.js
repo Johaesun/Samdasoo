@@ -13,4 +13,8 @@ $(document).ready(function(){
             $('body').css({'overflow':'visible'});
     });
     
+    $('.menu_scroll').click(function(){
+       $(window).scrollTop() == $(document).height() - $(window).height()
+    });
+    
 });
