@@ -10,7 +10,7 @@
 .top_bg p{padding-top: 15px; font-size: 20px; display: block; }
 
 /*box01*/
-.box01{width: 100%; text-align: center; padding: 40px 0; background: #77d9e7;}
+.box01{width: 100%; text-align: center; padding: 40px 0; background-color: #def2ff; color: #666}
 .box01 .title{margin-top: 10px;}
 .box01 p{line-height:18.5px }
 

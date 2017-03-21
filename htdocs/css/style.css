@@ -4,9 +4,9 @@ text: #fff or #828282
 */
 @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
 *{margin: 0;padding: 0;box-sizing: border-box; font-family: 'Jeju Gothic', serif;}
-a{color: #444; text-decoration: none;}
+a{text-decoration: none;}
 body{background-color: #def2ff;}
-img{vertical-align: top;}
+img{vertical-align: middle}
 
 .container{position: relative; max-width: 1920px; margin: 0 auto; width: 100%; height: auto;}
 

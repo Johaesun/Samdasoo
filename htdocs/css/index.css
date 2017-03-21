@@ -15,9 +15,9 @@
 
 
 /*box02*/
-.box02{padding: 60px 0 100px 0; text-align: center; min-height: 850px; color: #fff;}
+.box02{padding: 60px 0 100px 0; text-align: center; min-height: 850px; color: #828282; background-color: #def2ff;}
 .box02 .img_hover{min-width: 55%; margin: 0 auto; height: 450px;}
-.box02 .img_hover ul{width: 55%; min-width: 55%; height: 100%; margin: 0 auto;}
+.box02 .img_hover ul{width: 60%; min-width: 60%; height: 100%; margin: 0 auto;}
 .box02 .img_hover ul li{list-style: none; float: left; width: 33%; height: 50%; margin:0.1%; opacity: 1;}
 .box02 .img_hover ul li:first-child{background: url('../img/news1.jpg') no-repeat; background-size: cover}
 .box02 .img_hover ul li:nth-child(2){background: url('../img/news2.jpg') no-repeat;background-size: cover}
