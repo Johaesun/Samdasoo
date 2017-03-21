@@ -5,8 +5,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/career.css">
     <link rel="stylesheet" href="./css/style.css">
+    <!--jquery등록-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <!--nav-->
     <script src="./js/nav.js"></script>
+    
 </head>
 <body>
     <div id="wrap">
@@ -14,12 +17,15 @@
 		include("./layout/header_nav.php")
 		?>
     	<div class="top_bg">
-    	    <div class="top_bgOpacity">
-    	        <div class="top_text">
-    	            <h2>브랜드 삼다수</h2>
-    	            <p>제주에서온 건강한 물</p>
-    	        </div>
-    	    </div>
+    	    <video playsinline autoplay muted loop>
+    	               <source src="video/band.mp4" type="video/mp4">
+            </video>
+    	   <div class="top_bgOpacity">
+    	       <div class="top_text">
+    	           <h2>브랜드 삼다수</h2>
+    	           <p>제주에서온 건강한 물</p>
+    	       </div>
+    	   </div>
     	</div>
     	
     	<div class="centent">
