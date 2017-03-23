@@ -1,6 +1,6 @@
 .noscroll{overflow: hidden;}
 .container{position: relative; max-width: 1920px; margin: 0 auto; width: 100%; height: auto;}
-.container h2{font-size: 40px; padding-bottom: 25px; margin-bottom: 10px; letter-spacing: 0.8px; line-height: 40px;}
+.container h2{font-size: 40px; padding-bottom: 25px; margin-bottom: 10px; letter-spacing: 0.8px; line-height: 40px; margin-top: 30px;}
 .container .subText{padding: 0 20px; margin-bottom: 30px;}
 .container .more_btn{text-decoration: underline; margin-top: 20px; display: block; font-weight: bold; color: #fff; padding-bottom: 20px;}
 
@@ -15,7 +15,7 @@
 
 
 /*box02*/
-.box02{padding: 60px 0 100px 0; text-align: center; min-height: 850px; color: #666; background-color: #def2ff;}
+.box02{padding: 60px 0 100px 0; text-align: center; min-height: 850px; color: #666; background-color: #def2ff; /*transform: rotate(-10deg)*/}
 .box02 > .more_btn{text-decoration: underline; margin-top: 20px; display: block; font-weight: bold; color: #666; padding-bottom: 20px;}
 .box02 .img_hover{min-width: 55%; margin: 0 auto; height: 450px;}
 .box02 .img_hover ul{width: 60%; min-width: 60%; height: 100%; margin: 0 auto;}

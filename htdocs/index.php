@@ -20,8 +20,12 @@
         <?php
 		include('./layout/header_nav.php')
 		?>
+       
+       <div class="blocker">
+           
+       </div>
         <!--슬라이드-->
-        <div class="main_slide">
+        <div class="main_slide scroll_top">
             <div class="carousel" data-flickity='{ "autoPlay": 1500, "pauseAutoPlayOnHover": false }'>
                 <div class="carousel-cell"></div>
                 <div class="carousel-cell"></div>
@@ -67,35 +71,36 @@
              </li> 
           </ul>
         </div>
-        
         <div class="box02 container">
-            <h2>최근 삼다수 소식</h2>
-            <div class="subText">
-                <p>화산암반류가 빚어낸 맛있고, 건강한물 제주지하수의</p>
-                <p>1등 물의 소식들을 전해드립니다.</p>
-            </div>
-            <a href="" class="more_btn"><p>more</p></a>
-            <div class="img_hover">
-                <ul>
-                    <li>
-                        <a href="http://www.ihalla.com/read.php3?aid=1486393200557569010">&#91;한라일보&#93;</a>
-                    </li>
-                    <li>
-                        <a href="http://www.ihalla.com/read.php3?aid=1486479600557664010">&#91;한라일보&#93;</a>
-                    </li>
-                    <li>
-                        <a href="http://www.ihalla.com/read.php3?aid=1486652400557819010">&#91;한라일보&#93;</a>
-                    </li>
-                    <li>
-                        <a href="http://www.anewsa.com/detail.php?number=1129787&thread=09r02">&#91;아시아 뉴스통신&#93;</a>
-                    </li>
-                    <li>
-                        <a href="http://moneys.mt.co.kr/news/mwView.php?type=1&no=2017021411368092694&outlink=1">&#91;MoneyS&#93;</a>
-                    </li>
-                    <li>
-                        <a href="http://www.sisajeju.com/news/articleView.html?idxno=265935">&#91;시사제주&#93;</a>
-                    </li>
-                </ul>
+               <div class="bg">
+                <h2>최근 삼다수 소식</h2>
+                <div class="subText">
+                    <p>화산암반류가 빚어낸 맛있고, 건강한물 제주지하수의</p>
+                    <p>1등 물의 소식들을 전해드립니다.</p>
+                </div>
+                <a href="" class="more_btn"><p>more</p></a>
+                <div class="img_hover">
+                    <ul>
+                        <li>
+                            <a href="http://www.ihalla.com/read.php3?aid=1486393200557569010">&#91;한라일보&#93;</a>
+                        </li>
+                        <li>
+                            <a href="http://www.ihalla.com/read.php3?aid=1486479600557664010">&#91;한라일보&#93;</a>
+                        </li>
+                        <li>
+                            <a href="http://www.ihalla.com/read.php3?aid=1486652400557819010">&#91;한라일보&#93;</a>
+                        </li>
+                        <li>
+                            <a href="http://www.anewsa.com/detail.php?number=1129787&thread=09r02">&#91;아시아 뉴스통신&#93;</a>
+                        </li>
+                        <li>
+                            <a href="http://moneys.mt.co.kr/news/mwView.php?type=1&no=2017021411368092694&outlink=1">&#91;MoneyS&#93;</a>
+                        </li>
+                        <li>
+                            <a href="http://www.sisajeju.com/news/articleView.html?idxno=265935">&#91;시사제주&#93;</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         

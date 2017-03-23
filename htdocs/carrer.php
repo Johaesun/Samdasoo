@@ -16,7 +16,7 @@
     <?php
 		include("./layout/header_nav.php")
 		?>
-    	<div class="top_bg">
+    	<div class="top_bg scroll_top">
     	    <video playsinline autoplay muted loop>
     	       <source src="video/band.mp4" type="video/mp4">
             </video>

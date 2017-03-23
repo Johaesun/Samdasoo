@@ -15,7 +15,7 @@
        <?php
 		 include("./layout/header_nav.php")
 		 ?>
-        <div class="top_bg">
+        <div class="top_bg scroll_top">
             <div class="top_bgOpacity">
                 <div class="top_text">
                     <h2>삼다수의 고향</h2>
