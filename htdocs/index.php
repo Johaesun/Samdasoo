@@ -11,6 +11,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <!--메인슬라이드js-->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+    <!--스크롤js-->
+    <script src="js/jquery.smoothscroll.js"></script>
     <!--nav-->
     <script src="./js/nav.js"></script>
     

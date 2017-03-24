@@ -16,19 +16,20 @@
     <?php
 		include("./layout/header_nav.php")
 		?>
-    	<div class="top_bg scroll_top">
+    	<div class="top_bg scroll_top container">
     	    <video playsinline autoplay muted loop>
     	       <source src="video/band.mp4" type="video/mp4">
             </video>
-    	   <div class="top_bgOpacity">
     	       <div class="top_text">
-    	           <h2>브랜드 삼다수</h2>
-    	           <p>제주에서온 건강한 물</p>
+    	           <h2>브랜드 </h2>
+    	           <p></p>
     	       </div>
     	   </div>
-    	</div>
+    	   
+    	   <img src="img/content_bg.png" class="angleArea">
     	
-    	<div class="centent">
+    	
+    	<div class="content">
     	    <ul class="box_wrap">
     	        <div class="text_box">
     	            <h3>제주 지하수의 브랜드 시대</h3>
