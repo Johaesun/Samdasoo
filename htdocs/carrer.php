@@ -21,16 +21,13 @@
     	       <source src="video/band.mp4" type="video/mp4">
             </video>
     	       <div class="top_text">
-    	           <h2>브랜드 </h2>
-    	           <p></p>
+    	           <h2>밴드,고맙삼다</h2>
+    	           <p>브랜드 제주삼다수의 모델</p>
     	       </div>
-    	   </div>
-    	   
-    	   <img src="img/content_bg.png" class="angleArea">
+    	   </div>    	
     	
-    	
-    	<div class="content">
-    	    <ul class="box_wrap">
+    	<div class="box01">
+    	    <ul class="content">
     	        <div class="text_box">
     	            <h3>제주 지하수의 브랜드 시대</h3>
     	            <p>물허벅시대 1960년 이전부터</p>
@@ -42,26 +39,28 @@
     	            <p>고품질 지하수로 인정받았습니다.</p>
     	        </div>
     	    </ul>
-    	</div>
-    	
-    	<div class="career">
-            <ul>
+           
+            <ul class="career">
                 <li>
-                    <img src="./img/nbci.jpg" alt="한국생산성본부">2015 국가브랜드 경쟁력지수(NBCI) 9년 연속 1위 (생수부문,한국생산성본부)
+                    <img src="./img/nbci.jpg" alt="한국생산성본부"><p>2015 국가브랜드 경쟁력지수(NBCI) 9년 연속 1위 (생수부문,한국생산성본부)</p>
                 </li>
                 <li>
-                    <img src="./img/BrandStar.jpg" alt="브랜드스타">2015 대한민국 브랜드스타 10년 연속 선정 (생수부문1위,브랜드스타)
+                    <img src="./img/BrandStar.jpg" alt="브랜드스타"><p>2015 대한민국 브랜드스타 10년 연속 선정 (생수부문1위,브랜드스타)</p>
                 </li>
                 <li>
-                    <img src="./img/K-BPI.jpg" alt="한국농물협회컨설팅">2015 한국산업의 브랜드파워(K-BPI) 1위 (생수부문, 한국농물협회컨설팅)
+                    <img src="./img/K-BPI.jpg" alt="한국농물협회컨설팅"><p>2015 한국산업의 브랜드파워(K-BPI) 1위 (생수부문, 한국농물협회컨설팅)</p>
                 </li>
                 <li>
-                    <img src="./img/kb-pbi.jpg" alt="한국표준협회">2015 프리미엄브랜드지수(KS-PBI) 1위 (생수부문, 한국표준협회)
+                    <img src="./img/kb-pbi.jpg" alt="한국표준협회"><p>2015 프리미엄브랜드지수(KS-PBI) 1위 (생수부문, 한국표준협회)</p>
                 </li>
                 <li>
-                    한국에서 가장 존경받는 기업 (먹는샘물(생수)산업부문 1위,한국농물협회컨설팅)
+                    <p>한국에서 가장 존경받는 기업 (먹는샘물(생수)산업부문 1위,한국농물협회컨설팅)</p>
                 </li>
             </ul>
+        </div>
+        
+        <div class="box02">
+            
         </div>
     	<?php
 		include("./layout/footer.php")

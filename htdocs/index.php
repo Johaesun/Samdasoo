@@ -74,7 +74,7 @@
           </ul>
         </div>
         <div class="box02 container">
-               <div class="bg">
+               <div class="box02_subwrap">
                 <h2>최근 삼다수 소식</h2>
                 <div class="subText">
                     <p>화산암반류가 빚어낸 맛있고, 건강한물 제주지하수의</p>
