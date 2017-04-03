@@ -28,6 +28,7 @@
     	
     	<div class="box01">
             <h2>밴드 고맙삼다</h2>
+            <img src="./img/bottle_4.jpg" alt="">
             <ul>
                 <li>
                     <p>의도를 하나의 단어로 만들어 공유해보면 어떨까라는</p>
@@ -80,12 +81,10 @@
     	            <p>새롭게 관심이 가도록 ‘브랜드 리프레시먼트’ 캠페인을 목표로 잡았다.</p>
     	    </ul>
         </div>
+        
         <div class="box04">
-            
         </div>
-        <div class="box05">
-            
-        </div>
+        
     	<?php
 		include("./layout/footer.php")
 		?>

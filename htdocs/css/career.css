@@ -19,7 +19,7 @@
 .box01 .bottle_img{width: 300px; height: 300px; border-radius: 50%; position: absolute; left: 0; right: 0; margin: 0 auto; display: none;}
 
 /*box02*/
-.box02{background: url('../img/careerbox2.png')no-repeat center; padding:467px 0px; margin-top: -815px; }
+.box02{background: url('../img/careerbox2.png')no-repeat center; padding:467px 0px; margin-top: -822px; }
 .career {padding-right: 800px;}
 .career li{height: 50px; line-height: 50px; list-style:none; min-width: 577px; padding-left: 10%;}
 .career li:last-child{margin-left: 35px;}
@@ -27,14 +27,11 @@
 .career li p{display:inline; font-size: 17px;}
 
 /*box03*/
-.box03{background: url('../img/careerbox3.png')no-repeat center; padding:467px 0px; margin-top: -585px; background-size: cover}
-.text_box{padding-right: 15%; min-width: 500px; float: right; margin-top: -220px}
+.box03{background: url('../img/careerbox3.png')no-repeat center; padding:571px 0px; margin-top: -585px; background-size: cover}
+.text_box{padding-right: 15%; min-width: 500px; float: right; margin-top: -165px}
 .text_box h3{line-height: 25px; font-size: 27px; text-transform: uppercase; font-weight: 600; text-align: center; margin-bottom: 15px;}
-.text_box p{font-size: 15px; line-height: 30px; padding-top:8px; font-weight: 300; font-size: 16px;}
+.text_box p{font-size: 15px; line-height: 30px; padding-top:8px; font-weight: 300; font-size: 16px;}WWW
 .text_box p:last-child{padding-bottom: 0px;}
 
 /*box04*/
-.box04{background:url('../img/careerbox4.png')no-repeat center; padding: 595px 0px; margin-top: -516px;}
-
-/*box05*/
-.box05{padding: 200px 0px; background: url('../img/careerbox5.png')no-repeat center; margin-top: -358px;}
+.box04{padding: 211px 0px; background: url('../img/careerbox5.png')no-repeat center; margin-top: -358px; margin-bottom: -187px}
