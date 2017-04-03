@@ -10,13 +10,18 @@
 
 /*box01*/
 .box01{padding: 700px 0px; background-color: #fff; background: url('../img/content_bg.png')no-repeat center; position: relative; margin-top: -200px;}
+.box01 .bottle_img li{width: 200px; height: auto;display: block; margin: 0 auto; border-radius: 50%; margin-top: 80px; float: left}
+.box01 .bottle_img li img{background-size: cover; background: no-repeat center;}
+.box01 .bottle_img li img:first-child{background: url('../img/bottle_4.jpg')}
+.box01 .bottle_img li img:nth-child(2){background: url('../img/bottle_5.jpg')}
+.box01 .bottle_img li img:last-child{background: url('../img/bottle_6.jpg')}
 .box01 h2{font-size: 28px; text-align: center;line-height: 32px; margin: 0 auto;}
 .box01 ul{padding-top: 500px; width: 80%; margin: 0 auto;}
-.box01 ul li{list-style: none; width: 50%; float: left; margin-top: 3px;}
-.box01 ul li p{text-align: center; }
+.box01 ul li{list-style: none; width: 40%; height: 200px; float: left; margin-top: 3px; border-bottom: 3px solid #000; margin: 0% 5%;}
+.box01 ul li p{text-align: center; line-height: 27px; height: 27px;}
 .plus_text{text-align: center; margin: 0 auto; display: block; height: 300px; line-height: 300px; width: 80%;}
 .bottle{width: 10px; height: 10px; position: absolute; left: 0px; right: 0px;}
-.box01 .bottle_img{width: 300px; height: 300px; border-radius: 50%; position: absolute; left: 0; right: 0; margin: 0 auto; display: none;}
+/*.box01 .bottle_img{width: 300px; height: 300px; border-radius: 50%; position: absolute; left: 0; right: 0; margin: 0 auto; display: none;}*/
 
 /*box02*/
 .box02{background: url('../img/careerbox2.png')no-repeat center; padding:467px 0px; margin-top: -822px; }

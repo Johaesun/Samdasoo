@@ -28,7 +28,17 @@
     	
     	<div class="box01">
             <h2>밴드 고맙삼다</h2>
-            <img src="./img/bottle_4.jpg" alt="">
+            <ul class="bottle_img">
+                <li>
+                    <img src="./img/bottle_4.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./img/bottle_5.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./img/bottle_6.jpg" alt="">
+                </li>
+            </ul>
             <ul>
                 <li>
                     <p>의도를 하나의 단어로 만들어 공유해보면 어떨까라는</p>
@@ -43,7 +53,7 @@
                     <p>관심이 가도록 ‘브랜드 리프레시먼트’를 캠페인 목표로 잡았습니다.</p>
                 </li>
             </ul>
-            <img src="./img/bottle_4.jpg" class="bottle_img" alt="삼다수 이미지">
+            <!--<img src="./img/bottle_4.jpg" class="bottle_img" alt="삼다수 이미지">-->
             <p class="plus_text">고맙삼다 조물주와의 인터뷰 중</p>
         </div>
         
