@@ -26,7 +26,7 @@
     	       </div>
     	   </div>
     	
-    	<div class="box01">
+    	<div class="box01 container_carrer">
             <div class="box01_wrap">
                <h2>밴드 고맙삼다</h2>
                 <ul class="bottle_img">
@@ -52,7 +52,22 @@
                 <!--<p class="plus_text">고맙삼다 조물주와의 인터뷰 중</p>--></div>
         </div>
         
-        <div class="box02">
+        <div class="box02 container_carrer">
+            <div class="text_box">
+                <h3>제주 지하수의 브랜드 시대</h3>
+                <p>물허벅시대 1960년 이전부터 제주 지하수의 브랜드 시대 2000년대까지</p>
+                <p>청정과 힐링을 주는 이미지, 1위 브랜드의 위상을 ‘밴드 고맙삼다’의</p>
+                <p>음악과 영상을 통해 경쾌하고 자연스럽게 표현했으며,</p>
+                <p>제주삼다수의 수원지인 제주도는 현재까지 우리나라에서</p>
+                <p>가장 훼손되지 않으면서도, 국내 여행의 인기 있는곳이라는 점을 활용해</p>
+                                    
+                <p>영타깃과 제주삼다수를 좀 더 가깝게 만들려고</p>
+                <p>노력했으며 제주도의 매력을 제주삼다수로 자연스럽게 링크시키면서</p>
+                <p>새롭게 관심이 가도록 ‘브랜드 리프레시먼트’ 캠페인을 목표로 잡았다.</p>
+            </div>
+        </div>
+        <img src="./img/bottle_3.png" class="bottle" alt="삼다수 아이콘">
+        <div class="box03 container_carrer">
             <ul class="career">
                 <li>
                     <img src="./img/nbci.jpg" alt="한국생산성본부"><p>2015 국가브랜드 경쟁력지수(NBCI) 9년 연속 1위 (생수부문,한국생산성본부)</p>
@@ -71,23 +86,8 @@
                 </li>
             </ul>
         </div>
-        <img src="./img/bottle_3.png" class="bottle" alt="삼다수 아이콘">
-        <div class="box03">
-            <ul class="text_box">
-    	            <h3>제주 지하수의 브랜드 시대</h3>
-    	            <p>물허벅시대 1960년 이전부터 제주 지하수의 브랜드 시대 2000년대까지</p>
-    	            <p>청정과 힐링을 주는 이미지, 1위 브랜드의 위상을 ‘밴드 고맙삼다’의</p>
-    	            <p>음악과 영상을 통해 경쾌하고 자연스럽게 표현했으며,</p>
-    	            <p>제주삼다수의 수원지인 제주도는 현재까지 우리나라에서</p>
-    	            <p>가장 훼손되지 않으면서도, 국내 여행의 인기 있는곳이라는 점을 활용해</p>
-    	            
-    	            <p>영타깃과 제주삼다수를 좀 더 가깝게 만들려고</p>
-    	            <p>노력했으며 제주도의 매력을 제주삼다수로 자연스럽게 링크시키면서</p>
-    	            <p>새롭게 관심이 가도록 ‘브랜드 리프레시먼트’ 캠페인을 목표로 잡았다.</p>
-    	    </ul>
-        </div>
         
-        <div class="box04">
+        <div class="box04 container_carrer">
         </div>
         
     	<?php

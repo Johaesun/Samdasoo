@@ -1,4 +1,4 @@
-		<footer>
+		<footer class="container">
         <div class="feedback">
             <p>Provide feedback</p>
         </div>
@@ -7,6 +7,5 @@
                 <li>TEL &#40;064&#41;780-3300</li>
                 <li>TAX &#40;064&#41;784-5020</li>
             </ul>
-            <br>
             <p>COPYRIGHT © 2015 SDHS. ALL RIGHTS RESERVED</p>
         </footer>

@@ -80,7 +80,7 @@
                     <p>화산암반류가 빚어낸 맛있고, 건강한물 제주지하수의</p>
                     <p>1등 물의 소식들을 전해드립니다.</p>
                 </div>
-                <a href="" class="more_btn"><p>more</p></a>
+                <a href="./news.php" class="more_btn"><p>more</p></a>
                 <div class="img_hover">
                     <ul>
                         <li>
@@ -117,4 +117,7 @@
 		?>
     </div>
 </body>
+<script>
+    
+</script>
 </html>

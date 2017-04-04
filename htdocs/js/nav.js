@@ -3,18 +3,15 @@ $(document).ready(function(){
     $('.menu_list').click(function(){
         $('.nav').animate({right:'0px'});
             $('body').css({'overflow':'hidden'});
-              $(document).bind('scroll',function () { 
+              $(window).bind('scroll',function(){ 
                    window.scrollTo(0,0); 
               });
-        
-        $('body').addClass('bodyStop');
-        $('.block').css("opacity","0.5;")
     });
     
     /*nav close*/
     $('.close, .bodyStop').click(function(){
         $('.nav').animate({right:'-240px'});
-        $(document).unbind('scroll'); 
+        $(window).unbind('scroll'); 
     });
     
     /*스크롤 버튼*/
