@@ -16,7 +16,7 @@
            </ul>
            <ul class="subMenu">
               <li>
-                   <a href="">news</a>
+                   <a href="../news.php">news</a>
                 </li>
                <li>
                    <a href="">provide feedback</a>

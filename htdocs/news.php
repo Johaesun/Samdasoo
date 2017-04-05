@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/news.css">
     <link rel="stylesheet" href="./css/style.css">
     <!--jquery등록-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -16,7 +16,7 @@
             include('./layout/header_nav.php')
         ?>
         
-        <div class="content">
+        <div class="content container">
             <table>
                 <tr>
                     <th>Date</th>
