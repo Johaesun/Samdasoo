@@ -1,3 +1,10 @@
+<?php
+    include ("./htdocs/db.php");
+    $sql = "select * from news";
+    $se = $pdo->prepare($sql);
+    $se->execute();
+    $result = $se->fetchAll();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,27 +22,49 @@
         <?php
             include('./layout/header_nav.php')
         ?>
-        
-        <div class="content container">
-            <table>
-                <tr>
-                    <th>Date</th>
-                    <th>title</th>
-                    <th>조회수</th>
-                    <th>신문사</th>
-                </tr>
-                <tr>
-                    
-                </tr>
-                <tr>
-                    
-                </tr>
-                <tr>
-                    
-                </tr>
-            </table>
+        <div class="top_bg scroll_top">
+            <div class="top_bgOpacity">
+                <div class="top_text">
+                    <h2>삼다수 소식</h2>
+                    <p>최근 삼다수의 소식을 전해드립니다.<p>
+                </div>
+            </div>
         </div>
         
+        <div class="content container">
+            <ul class="notice">
+                <?php
+        foreach($result as $row){
+        ?>
+                <li>
+                    <p>Notice<br>
+                        <?=$row['idx']?>
+                    </p>
+                    <dl>
+                        <p>
+                            <?=$row['title']?>
+                        </p>   
+                        <dd>
+                            <?=$row['date']?>
+                        </dd>
+                    </dl>
+                    <span>윽엑</span>
+                </li>
+                <div class="content_box">
+                    <div class="cB_wrap">
+                        <span>
+                           <?=$row['company']." ".$row['name']."기자"?>
+                        </span>
+                        <p class="tt"><?=$row['title']?></p>
+                        <p class="st"><?=$row['subttle'?></p>
+                        
+                    </div>
+                </div>
+                <?php
+        }
+        ?>        
+            </ul>
+        </div>
         <?php
             include('./layout/footer.php')
         ?>
