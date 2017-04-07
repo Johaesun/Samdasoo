@@ -48,7 +48,7 @@
                             <?=$row['date']?>
                         </dd>
                     </dl>
-                    <span>윽엑</span>
+                    <span class="notice_btn"></span>
                 </li>
                 <div class="content_box">
                     <div class="cB_wrap">
@@ -56,8 +56,8 @@
                            <?=$row['company']." ".$row['name']."기자"?>
                         </span>
                         <p class="tt"><?=$row['title']?></p>
-                        <p class="st"><?=$row['subttle'?></p>
-                        
+                        <p class="st"><?=$row['subtitle']?></p>
+                        <span class="close_btn"></span>
                     </div>
                 </div>
                 <?php
@@ -70,4 +70,5 @@
         ?>
     </div>
 </body>
+<script src="./js/news.js"></script>
 </html>
