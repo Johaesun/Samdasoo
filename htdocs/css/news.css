@@ -14,7 +14,9 @@
 .notice li>dl>p{font-size: 18px; padding-top: 25px; line-height: 15px;}
 .notice li > span{width: 30px; height: 30px; background-size: 100%; top: 20%; right: 20px; position: absolute; display: inline-block; border: 1px solid #000; background: url("../img/header_scroll.png")no-repeat center black; background-size: cover}
 .notice li > span{width: 30px; height: 30px; background-size: 100%; top: 20%; right: 20px; position: absolute; display: inline-block; border: 1px solid #000; background: url("../img/header_scroll.png")no-repeat center black; background-size: cover}
-.content_box{display: block; padding: 50px 0px; width: 100%; background: #fff; transition: 2s; -webkit-transition:2s}
+.content_box{padding: 50px 0px; width: 100%; background: #fff; transition: 2s; -webkit-transition:2s; display: none;}
+.content_box_on{display: block}
+
 .click_off{overflow: hidden; padding: 0px; margin: 0px; display: none; ;}
 .cB_wrap{width: 100%; padding: 0px 20px; zoom:1; text-align: left; position: relative;}
 .close_btn{width: 30px;height: 30px; background-size: 100%; top: -20px;   right: 20px; background: url('../img/header_x.png')no-repeat center black; position:absolute}
