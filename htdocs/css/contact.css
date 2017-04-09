@@ -10,13 +10,16 @@
 .top_bg p{padding-top: 15px; font-size: 20px; display: block; }
 
 /*box01*/
-.box01{background-color: #73bae5; color: #fff; padding:50px 0px 95px 0px ; display: inline-block;}
+.box01{background-color: #def2ff; color: #828282; padding:50px 0px 95px 0px ; display: inline-block;}
+.ul_wrap{width: 70%; margin: 0 auto;}
+.ul_wrap li{width: 50%; height: 100%; float: left; list-style: none;}
 .box01 .ul_wrap p:first-child{ font-size: 17px; font-weight: 250; margin-bottom: 10px;}
 .box01_content{width: 75%; height: 100%; margin: 0 auto; padding: 30px 0px;}
-.box01_content ul{width: 50%; height: 100%; float: left;}
 .box01_content .user_info{list-style: none;}
 .box01_content .user_info li{min-height: 60px; padding: 10px 0px; margin-left: 30px;}
 .box01_content .user_info li p:last-child{font-size: 14px; font-weight: 300; margin-top: 5px;}
 .box01_content form input[type="text"]{margin-bottom: 10px; resize: none; width: 100%; height: 50px; line-height: 50px; color: #fff; padding-left: 10px; opacity: 0.5}
 .box01_content form textarea{width: 100%; height:210px; opacity: 0.5;}
 .box01_content form label{font-size: 12px; font-weight: 200}
+
+iframe{width: 100%; height: 600px; border: 1px solid #000;}
