@@ -38,7 +38,7 @@
 					</div>
 				</div>
 
-				<div class="content container">
+				<div class="content container box01">
 					<ul class="notice">
 						<!--<button onclick="add_news">+add news</button>-->
 						<?php
@@ -68,6 +68,9 @@
 									</p>
 									<p class="st">
 										<?=$row['subtitle']?>
+									</p>
+									<p class="cB_notice">
+									    <?=$row['notice']?>
 									</p>
 									<span class="close_btn"></span>
 								</div>

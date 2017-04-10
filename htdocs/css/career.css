@@ -10,7 +10,7 @@
 .container_carrer{position: relative; max-width: 1920px; width: 100%;}
 
 /*box01*/
-.box01{background: url('../img/content_bg.png')no-repeat center; position: relative; color: #828282; }
+.box01{padding: 755px 0px; background: url('../img/content_bg.png')no-repeat center; position: relative; margin-top: -200px; color: #828282; }
 .box01_wrap{position: absolute; width: 100%;height: 100%;top: 300px;}
 .box01 li{list-style: none;}
 .box01 h2{font-size: 28px; text-align: center; line-height: 32px; margin: 0 auto;}
@@ -20,9 +20,8 @@
 .box01 .bottle_img li:nth-child(2){background: url('../img/bottle_4.jpg')no-repeat center; background-size: cover;}
 .box01 .bottle_img li:last-child{background: url('../img/insta2.jpg')no-repeat center; background-size: cover; border-radius: 0% 20% 20% 0% ;}
 .box01_text{padding-top: 25%; width: 80%; margin: 0 auto;}
-.box01_text li{list-style: none; width: 40%; height: 180px; float: left; margin: 0% 5%;}
-.box01_text li p{text-align: center; line-height: 27px; height: 27px; display: inline;}
-.box01_text li p:last-child{ border-bottom: 3px solid #def2ff;}
+.box01_text li{list-style: none; width: 40%; height: 180px; float: left; border-bottom: 3px solid #def2ff; margin: 0% 5%;}
+.box01_text li p{text-align: center; line-height: 27px; height: 27px;}
 .plus_text{text-align: center; margin: 0 auto; display: block; height: 300px; line-height: 300px; width: 80%;}
 .bottle{width: 10px; height: 10px; position: absolute; left: 0px; right: 0px;}
 /*.box01 .bottle_img{width: 300px; height: 300px; border-radius: 50%; position: absolute; left: 0; right: 0; margin: 0 auto; display: none;}*/

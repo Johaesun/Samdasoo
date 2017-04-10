@@ -60,7 +60,7 @@
 							</textarea>
 								<p>
 									<input type="checkbox" value="1" id="check_protect">
-									<label for="check_protect">개인보호정책에 동의합니다.</label>
+									<label for="check_protect"><a href="">개인보호정책</a>에 동의합니다.</label>
 								</p>
 								<input type="submit">
 							</form>
