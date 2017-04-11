@@ -28,13 +28,12 @@
     	
     	<div class="box01 container_carrer">
             <div class="box01_wrap">
-               <h2>밴드 고맙삼다</h2>
                 <ul class="bottle_img">
-                    <li></li>
                     <li></li>
                     <li></li>
                 </ul>
                 <ul class="box01_text">
+                   <h2>밴드 고맙삼다</h2>
                     <li>
                         <p>의도를 하나의 단어로 만들어 공유해보면 어떨까라는</p>
                         <p>생각이 들었어요. 여러 아이디어 가운데 ‘고맙습니다+삼다수’가</p>

@@ -32,4 +32,3 @@ body_stop{}
 /*슬라이드 버튼 숨김*/
 .flickity-prev-next-button {position: absolute; top: 0; z-index: -9999}
 .flickity-page-dots{position: absolute; z-index: -999}
-.scroll{width: 60px; height: 40px; background: #73bae5; position: absolute; bottom: 0px; left: 0; right: 0;z-index: 999; margin: 0 auto; text-align: center; line-height: 40px; color: #fff; font-size: 20px;}
