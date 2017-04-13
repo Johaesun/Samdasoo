@@ -51,8 +51,8 @@
         </div>
 
         <div class="box02 container_carrer">
+           <h3>제주 지하수의 브랜드 시대</h3>
             <div class="text_box">
-                <h3>제주 지하수의 브랜드 시대</h3>
                 <p>물허벅시대 1960년 이전부터 제주 지하수의 브랜드 시대 2000년대까지</p>
                 <p>청정과 힐링을 주는 이미지, 1위 브랜드의 위상을 ‘밴드 고맙삼다’의</p>
                 <p>음악과 영상을 통해 경쾌하고 자연스럽게 표현했으며,</p>
@@ -87,8 +87,11 @@
                 </li>
             </ul>
         </div>
+        
+        <div class="box04 container_carrer" ></div>
+        
 
-        <div class="box04 container_carrer">
+        <div class="box05 container_carrer">
         </div>
 
         <?php
