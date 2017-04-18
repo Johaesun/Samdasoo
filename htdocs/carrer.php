@@ -88,10 +88,29 @@
             </ul>
         </div>
         
-        <div class="box04 container_carrer" ></div>
-        
-
-        <div class="box05 container_carrer">
+        <div class="box04 container_carrer" >
+            <div class="box04_wrap">
+                <img src="./img/bottle_3.png" alt="">
+                <div class="box04_text">
+                    <h2>
+                       자연 그대로의 물 <br>
+                       <span>제주 삼다수</span>
+                    </h2>
+                    <p>유네스코에서 세계 자연유산으로 등재된 제주도의 청정지역에서</p>
+                    <p>끌어올린 제주 삼다수는 110여회의 화산활동에 의해 생성된 한라산의</p>
+                    <p>수많은 현무암질 천연화산층을 통과하여 만들어진 순수한 화산암반수입니다.</p>
+                    
+                    <div class="box04_subtext">
+                        <p><span>[주요성분]</span></p>
+                        <p>무기물질 함량(mg/L)] 칼슘(Ca) : 2.2~3.6 칼륨(K) : 1.5~3.4 나트륨(Na) : 4.0~7.2</p> 
+                        <p>마그네슘(Mg): 1.0~2.8 불소(F) : 불검출</p>
+                        <p><span>[원수원]</span></p>
+                        <p>암반대수층지하수 수원지 제주특별자치도 제주시 조천읍 교래리</p>
+                        <p><span>[용량/규격]</span></p>
+                        <p>500ml, 2.0L PET</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <?php

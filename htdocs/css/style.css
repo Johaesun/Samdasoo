@@ -23,7 +23,9 @@ img{vertical-align: middle}
         .bag .etcFix .etc_text ul li{width:100%; color: #fff; font-weight: 300; margin: 0 auto; list-style: none;}
             .bag .etcFix .etc_text ul li:before {content:"- ";}
 /*feedback*/
-.provide{width: 240px; height: 100%; top: 0; color: #828282; z-index: 99999; background-color: rgba(255,255,255,0.9); position: fixed; display: none;}
+.provide{height: 100%; top: 0; color: #828282; z-index: 99999; background-color: rgba(255,255,255,0.9); position: fixed; right: 240px;}
+.provide form{padding: 40px 34px;}
+.provide form label{height: 32px; line-height: 32px}
 
 /*nav*/
 .nav{position: fixed; width: 240px; height: 100%; top: 0; color: #73bae5; z-index: 99999; background-color: #fff; border-bottom-left-radius: 20%; right:-240px;}

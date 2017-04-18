@@ -1,6 +1,6 @@
 /*top_bg*/
 .top_bg{height: 500px;}
-.top_bg video{min-width: 100%; min-height: 100%; width: auto; height: auto; transform: translate(-50%,-8%);left: 50%; position: fixed; text-align: center;position: fixed; z-index: -9999}
+.top_bg video{min-width: 100%; min-height: 100%; width: auto; height: auto; transform: translate(-50% , 0%);left: 50%; position: fixed; text-align: center;position: fixed; z-index: -9999}
 .top_bg .top_text{position: absolute; width: 100%; padding-top: 100px; margin-top: 130px; color: #fff; text-align: center;}
 .top_bg h2{font-size: 55px; line-height: 70px; color: #fff; padding-bottom: 10px; border-bottom:5px solid rgba(255,255,255,0.2); margin-bottom: 0px; font-weight: 900; display: inline-block;}
 .top_bg p{padding-top: 15px; font-size: 20px; display: block;}
@@ -31,12 +31,24 @@
 .text_box p:last-child{padding-bottom: 0px;border-top-right-radius: }
 
 /*box03*/
-.box03{background: url('../img/careerbox3.png')no-repeat center; padding:571px 0px; margin-top: -490px; background-size: cover; color: #828282;}
-.career {float: right;}
-.career li{height: 50px; line-height: 50px; list-style:none; padding-right: 10%; text-align: right;}
+.box03{background: url('../img/careerbox3.png')no-repeat center; padding:571px 0px; margin-top: -520px; background-size: cover; color: #828282;}
+.career {float: right; padding-right: 10%; margin-top: 65px;}
+.career li{height: 50px; line-height: 50px; list-style:none;  text-align: right;}
 .career li:last-child{margin-left: 35px;}
 .career li img{width:30px; height: 30px;  border-radius: 50%; margin-right: 5px; float: left}
 .career li p{display:inline; font-size: 17px; float: left;}
 
-/*box05*/
-.box05{padding: 211px 0px; background: url('../img/careerbox5.png')no-repeat center; margin-top: -358px; margin-bottom: -187px}
+/*box04*/
+.box04{background: url('../img/careerbox4.png')no-repeat center; padding:571px 0px; margin-top: -551px; background-size: cover; color: #828282;}
+.box04 img{width: 20%; float: left;}
+.box04_wrap{position: absolute; top: 30%; margin: 0 auto; left: 0; right: 0; width: 70%; }
+.box04_wrap>img:first-child{width: 30%; float: left;}
+.box04_text{min-width: 200px; margin: 0 auto; float: left; padding-left: 20px}
+.box04_text > h2{font-size: 28px;line-height: 32px; margin: 0 auto; border-left: 3px solid #73bae5; padding-left: 10px; margin-bottom: 10px; font-weight: 110}
+.box04_text p{line-height: 27px; height: 27px; text-align: left;}
+.box04_subtext {margin-top: 33px}
+.box04_subtext p{font-size: 0.8em}
+.box04_subtext span{font-size: 0.8em; font-weight: bold}
+
+/*footer*/
+footer{margin-top: -185px}

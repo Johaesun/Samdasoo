@@ -36,16 +36,18 @@
             <input type="radio" size="10" name="age" value="30대">30대
             <input type="radio" size="10" name="age" value="40대">40대
             <br>
-            <ladbel>평소 삼다수에 대한 이미지</ladbel>
+            <label>평소 삼다수에 대한 이미지</label>
             <br>
             <input type="checkbox" name="samda_img" value="별로다">별로다
             <input type="checkbox" name="samda_img" value="그냥 그렇다">그냥 그렇다
             <input type="checkbox" name="samda_img" value="좋다">좋다
             <input type="checkbox" name="samda_img" value="매우 좋다">매우 좋다
-            <br> 삼다수에게 칭찬해주고 싶은 점
+            <br> 
+                <label for="">삼다수에게 칭찬해주고 싶은 점</label>
             <br>
             <textarea name="feedback1" id="feedback1" cols="30" rows="10"></textarea>
-            <br> 삼다수에게 해주고 싶은 말
+            <br> 
+                <label for="">삼다수에게 해주고 싶은 말</label>
             <br>
             <textarea name="feedback2" id="feedback2" cols="30" rows="10"></textarea>
         </form>
