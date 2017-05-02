@@ -34,15 +34,14 @@
 .box03{background: url('../img/careerbox3.png')no-repeat center; padding:571px 0px; margin-top: -520px; background-size: cover; color: #828282;}
 .career {float: right; padding-right: 10%; margin-top: 65px;}
 .career li{height: 50px; line-height: 50px; list-style:none;  text-align: right;}
-.career li:last-child{margin-left: 35px;}
-.career li img{width:30px; height: 30px;  border-radius: 50%; margin-right: 5px; float: left}
-.career li p{display:inline; font-size: 17px; float: left;}
+.career li:last-child{margin-left: 35px; width: 60%}
+.career li img{width:10%; height: auto;  border-radius: 50%; margin-right: 5px; float: left}
+.career li p{display:inline; font-size: 17px; float: left; width: 100%}
 
 /*box04*/
 .box04{background: url('../img/careerbox4.png')no-repeat center; padding:571px 0px; margin-top: -551px; background-size: cover; color: #828282;}
-.box04 img{width: 20%; float: left;}
 .box04_wrap{position: absolute; top: 30%; margin: 0 auto; left: 0; right: 0; width: 70%; }
-.box04_wrap>img:first-child{width: 30%; float: left;}
+.box04_wrap>img:first-child{width: 10%; float: left; margin-right: 5%;}
 .box04_text{min-width: 200px; margin: 0 auto; float: left; padding-left: 20px}
 .box04_text > h2{font-size: 28px;line-height: 32px; margin: 0 auto; border-left: 3px solid #73bae5; padding-left: 10px; margin-bottom: 10px; font-weight: 110}
 .box04_text p{line-height: 27px; height: 27px; text-align: left;}
