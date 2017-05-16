@@ -12,6 +12,7 @@ img{vertical-align: middle}
 .scroll{width: 60px; height: 40px; background: #73bae5; position: absolute; bottom: 0px; left: 0; right: 0;z-index: 999; margin: 0 auto; text-align: center; line-height: 40px; color: #fff; font-size: 20px;}
 .on{background-color: #73bae5;}
 .scroll_top{width: 100%;}
+.bag{position: relative; z-index: 99999999;}
 .bag_color{background: rgba(0,0,0,0.6); width: 100%; height: 100%; position: absolute; left: 0; right: 0; z-index: 10000; display: block;}
 
 .bag .etcFix{position: fixed; top: 0; left: 0; z-index: 9999999; width: 100%; display: none;}

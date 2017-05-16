@@ -18,10 +18,6 @@ $(document).ready(function () {
         $('.nav').animate({
             right: '0px'
         });
-        $('body').css({
-            'overflow': 'hidden',
-            'background-color': 'rgba(0,0,0,0.6)'
-        });
         $(window).on('scroll', function () {
             return false;
         });
@@ -39,7 +35,7 @@ $(document).ready(function () {
         $(window).on('scroll', function () {
             return true;
         });
-        $(".bag").removeClass("bag_color");
+        $("bag").removeClass("bag_color");
         $(".bag_color").css({
             'display': 'none'
         });

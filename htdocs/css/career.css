@@ -10,7 +10,7 @@
 .container_carrer{position: relative; max-width: 1920px; width: 100%;}
 
 /*box01*/
-.box01{padding: 616px 0px; background: url('../img/content_bg.png')no-repeat center; position: relative; margin-top: -200px; color: #828282; }
+.box01{padding: 616px 0px; background: url('../img/content_bg.png')no-repeat center; position: relative; margin-top: -220px; color: #828282; }
 .box01_wrap{position: absolute; width: 70%; top: 300px; margin: 0 auto; left: 0px; right: 0px;}
     .box01 .bottle_img{width: 200px; float: left;}
         .box01 .bottle_img li{width: 100%; height: auto; margin: 0 auto; overflow: hidden; padding:38% 3.333%; border: 1px solid #fff;}
@@ -31,12 +31,12 @@
 .text_box p:last-child{padding-bottom: 0px;border-top-right-radius: }
 
 /*box03*/
-.box03{background: url('../img/careerbox3.png')no-repeat center; padding:571px 0px; margin-top: -520px; background-size: cover; color: #828282;}
-.career {float: right; padding-right: 10%; margin-top: 65px;}
-.career li{height: 50px; line-height: 50px; list-style:none;  text-align: right;}
-.career li:last-child{margin-left: 35px; width: 60%}
-.career li img{width:10%; height: auto;  border-radius: 50%; margin-right: 5px; float: left}
-.career li p{display:inline; font-size: 17px; float: left; width: 100%}
+.box03{background: url('../img/careerbox3.png')no-repeat center; padding:571px 0px; margin-top: -526px; background-size: cover; color: #828282;}
+.career {float: right; padding-right: 10%; margin-top: 60px;}
+.career li{height: 50px; line-height: 50px; list-style: none; text-align: right;}
+.career li:last-child{margin-left: 35px; width: 100%}
+.career li img{width: 40px; height: 40px; border-radius: 50%; margin-right: 5px; float: left;}
+.career li p{display:inline; font-size: 17px; float: left;}
 
 /*box04*/
 .box04{background: url('../img/careerbox4.png')no-repeat center; padding:571px 0px; margin-top: -551px; background-size: cover; color: #828282;}
@@ -50,4 +50,4 @@
 .box04_subtext span{font-size: 0.8em; font-weight: bold}
 
 /*footer*/
-footer{margin-top: -185px}
+footer{margin-top: -185px; background: url('../img/w_bg.png');}

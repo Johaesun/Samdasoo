@@ -14,16 +14,30 @@
 		<link rel="stylesheet" href="./css/style.css" type="text/css">
 		<!--jquery등록-->
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript">
-
-
-		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
 		<!--nav-->
-
 		<script src="./js/nav.js"></script>
+		<script src="./js/news.js"></script>
 	</head>
 
 	<body>
+	<div class="news_form">
+              <form action="post">
+                  <table>
+                      <tr>
+                          <td>title : <input type="text"></td>
+                          <td><?=$row['date']?></td>
+                      </tr>
+                      <tr>
+                          <td>subtitle : <input type="text"></td>
+                          
+                      </tr>
+                      <tr>
+                          <textarea name="" id="" cols="30" rows="10"></textarea>
+                      </tr>
+                  </table>
+              </form>
+        </div>
 		<div id="wrap">
 			<?php
             include('./layout/header_nav.php')
@@ -39,11 +53,12 @@
 				</div>
 
 				<div class="content container box01">
+				<button class="btn_news">글쓰기</button>
 					<ul class="notice">
 						<!--<button onclick="add_news">+add news</button>-->
 						<?php
-        foreach($result as $row){
-        ?>
+                            foreach($result as $row){
+                            ?>
 							<li>
 								<p>Notice<br>
 									<?=$row['idx']?>
