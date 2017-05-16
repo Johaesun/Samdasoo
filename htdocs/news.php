@@ -26,27 +26,6 @@
             <?php
             include('./layout/header_nav.php')
         ?>
-                <div class="news_form">
-                    <form action="post">
-                        <table>
-                            <tr>
-                                <td>title : <input type="text"></td>
-                                <td>
-                                    <?=$row['date']?>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>subtitle : <input type="text"></td>
-                                <td>company :
-                                    <?=$row['company']?>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
-                            </tr>
-                        </table>
-                    </form>
-                </div>
                 <div class="top_bg scroll_top">
                     <div class="top_bgOpacity">
                         <div class="top_text">

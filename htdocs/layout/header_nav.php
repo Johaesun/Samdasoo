@@ -21,6 +21,32 @@
             <h3>동의를 거부할 권리 및 동의를 거부할 경우의 이익</h3>
             <p>위 개인정보 중 필수적 정보의 수집•이용에 관한 동의는 채용 심사를 위하여 필수적이므로, 위 사항에 동의하셔야만 채용심사가 가능합니다. 위 개인정보 중 선택적 정보의 수집•이용에 관한 동의는 거부하실 수 있으며, 다만 동의하지 않으시는 경우 채용 심사시 불이익을 받으실 수 있으며, 「동의하지 않음」을 선택한 후 본인이 등록한 선택적 정보에 대해서는 수집 • 이용에 대해 동의한 것으로 간주합니다.</p>
         </div>
+
+        <div class="news_form">
+            <?php
+                    foreach($result as $row){
+                    ?>
+                <form action="post">
+                    <table>
+                        <tr>
+                            <td>title : <input type="text"></td>
+                            <td>
+                                <?=$row['date']?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>subtitle : <input type="text"></td>
+                            <td>company : <input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                        </tr>
+                    </table>
+                </form>
+                <?php
+                    }
+                    ?>
+        </div>
     </div>
 </div>
 <div class="nav_wrap">
@@ -42,12 +68,12 @@
             <input type="checkbox" name="samda_img" value="그냥 그렇다">그냥 그렇다
             <input type="checkbox" name="samda_img" value="좋다">좋다
             <input type="checkbox" name="samda_img" value="매우 좋다">매우 좋다
-            <br> 
-                <label for="">삼다수에게 칭찬해주고 싶은 점</label>
+            <br>
+            <label for="">삼다수에게 칭찬해주고 싶은 점</label>
             <br>
             <textarea name="feedback1" id="feedback1" cols="30" rows="10"></textarea>
-            <br> 
-                <label for="">삼다수에게 해주고 싶은 말</label>
+            <br>
+            <label for="">삼다수에게 해주고 싶은 말</label>
             <br>
             <textarea name="feedback2" id="feedback2" cols="30" rows="10"></textarea>
         </form>
@@ -73,7 +99,7 @@
                 <a href="../news.php">news</a>
             </li>
             <li>
-                <a href="">provide feedback</a>
+                <a href="#">provide feedback</a>
             </li>
         </ul>
     </div>
@@ -87,6 +113,10 @@
     <dl class="top-right">
         <dt>메뉴, 맨밑스크롤</dt>
         <dd class="menu_scroll"></dd>
-        <dd class="menu_list"></dd>
+        <dd class="menu_list">
+            <span class="manu_ani"></span>
+            <span class="manu_ani"></span>
+            <span class="manu_ani"></span>
+        </dd>
     </dl>
 </header>

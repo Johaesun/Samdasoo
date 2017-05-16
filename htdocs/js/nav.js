@@ -93,6 +93,8 @@ $(document).ready(function () {
         });
     };
 
-
+    $(this).click(function(){
+        $(this).addClass("feedback");
+    });
 
 });
