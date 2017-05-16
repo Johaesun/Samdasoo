@@ -5,101 +5,106 @@
     $se->execute();
     $result = $se->fetchAll();
 ?>
-	<!DOCTYPE html>
-	<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Document</title>
-		<link rel="stylesheet" href="./css/news.css" type="text/css">
-		<link rel="stylesheet" href="./css/style.css" type="text/css">
-		<!--jquery등록-->
+    <!DOCTYPE html>
+    <html lang="en">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
-		<!--nav-->
-		<script src="./js/nav.js"></script>
-		<script src="./js/news.js"></script>
-	</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/news.css" type="text/css">
+        <link rel="stylesheet" href="./css/style.css" type="text/css">
+        <!--jquery등록-->
 
-	<body>
-	<div class="news_form">
-              <form action="post">
-                  <table>
-                      <tr>
-                          <td>title : <input type="text"></td>
-                          <td><?=$row['date']?></td>
-                      </tr>
-                      <tr>
-                          <td>subtitle : <input type="text"></td>
-                          
-                      </tr>
-                      <tr>
-                          <textarea name="" id="" cols="30" rows="10"></textarea>
-                      </tr>
-                  </table>
-              </form>
-        </div>
-		<div id="wrap">
-			<?php
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
+        <!--nav-->
+        <script src="./js/nav.js"></script>
+        <script src="./js/news.js"></script>
+    </head>
+
+    <body>
+        <div id="wrap">
+            <?php
             include('./layout/header_nav.php')
         ?>
-				<div class="top_bg scroll_top">
-					<div class="top_bgOpacity">
-						<div class="top_text">
-							<h2>삼다수 소식</h2>
-							<p>최근 삼다수의 소식을 전해드립니다.
-								<p>
-						</div>
-					</div>
-				</div>
+                <div class="news_form">
+                    <form action="post">
+                        <table>
+                            <tr>
+                                <td>title : <input type="text"></td>
+                                <td>
+                                    <?=$row['date']?>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>subtitle : <input type="text"></td>
+                                <td>company :
+                                    <?=$row['company']?>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div class="top_bg scroll_top">
+                    <div class="top_bgOpacity">
+                        <div class="top_text">
+                            <h2>삼다수 소식</h2>
+                            <p>최근 삼다수의 소식을 전해드립니다.
+                                <p>
+                        </div>
+                    </div>
+                </div>
 
-				<div class="content container box01">
-				<button class="btn_news">글쓰기</button>
-					<ul class="notice">
-						<!--<button onclick="add_news">+add news</button>-->
-						<?php
+                <div class="content container box01">
+                    <button class="btn_news">글쓰기</button>
+                    <ul class="notice">
+                        <!--<button onclick="add_news">+add news</button>-->
+                        <?php
                             foreach($result as $row){
                             ?>
-							<li>
-								<p>Notice<br>
-									<?=$row['idx']?>
-								</p>
-								<dl>
-									<p>
-										<?=$row['title']?>
-									<p>
-									<dd>
-										<?=$row['date']?>
-									</dd>
-								</dl>
-								<span class="notice_btn"></span>
-							</li>
-							<div class="content_box box_off">
-								<div class="cB_wrap">
-									<span>
+                            <li>
+                                <p>Notice<br>
+                                    <?=$row['idx']?>
+                                </p>
+                                <dl>
+                                    <p>
+                                        <?=$row['title']?>
+                                            <p>
+                                                <dd>
+                                                    <?=$row['date']?>
+                                                </dd>
+                                </dl>
+                                <span class="notice_btn"></span>
+                            </li>
+                            <div class="content_box box_off">
+                                <div class="cB_wrap">
+                                    <span>
                            <?=$row['company']." ".$row['name']."기자"?>
                         </span>
-									<p class="tt">
-										<?=$row['title']?>
-									</p>
-									<p class="st">
-										<?=$row['subtitle']?>
-									</p>
-									<p class="cB_notice">
-									    <?=$row['notice']?>
-									</p>
-									<span class="close_btn"></span>
-								</div>
-							</div>
-							<?php
-        }
-        ?>
-					</ul>
-				</div>
-				<?php
+                                    <p class="tt">
+                                        <?=$row['title']?>
+                                    </p>
+                                    <p class="st">
+                                        <?=$row['subtitle']?>
+                                    </p>
+                                    <p class="cB_notice">
+                                        <?=$row['notice']?>
+                                    </p>
+                                    <span class="close_btn"></span>
+                                </div>
+                            </div>
+                            <?php
+                            }
+                            ?>
+                    </ul>
+                </div>
+                <?php
             include('./layout/footer.php')
         ?>
-		</div>
-	</body>
-	<script src="./js/news.js"></script>
+        </div>
+    </body>
+    <script src="./js/news.js"></script>
 
-	</html>
+    </html>

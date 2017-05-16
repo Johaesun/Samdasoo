@@ -45,7 +45,7 @@ header{padding-top: 20px; min-width: 100%; transition: 0.5s; position: absolute;
 		header dl dt{display: block; position: absolute; top: -99999em; left: 0;}
 		header dl dd{width: 58px; height: 58px; cursor: pointer; text-indent: -99999px; overflow: hidden; display: inline-block}
 	.menu_scroll{background: url('../img/header_scroll.png')no-repeat; background-size: cover;}
-	.menu_list{background: url('../img/header_menu.png')no-repeat; background-size: cover; margin-left: 10px;}
+	.menu_list{background-size: cover; width: 42px; height: 42px; margin-left: 10px; border: 2px solid #fff; margin: 10.5px;}
 	.header_scroll{position: fixed; top: 0px; background-color: #73bae5; opacity: 0.6;}
 
 /*footer*/
