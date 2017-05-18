@@ -33,5 +33,19 @@ $(document).ready(function () {
         $('.bag').addClass("bag_color");
     });
 
-
+    /*news글쓰기*/
+    $(".btn_news").click(function () {
+        $(".bag").addClass("bag_color");
+        $(".news_form").css({
+            "display": "block",
+        });
+    });
+    
+    /*news글쓰기 close
+    $(".btn_news").click(function(){
+        $(".bag").removeClass("bag_color");
+        $(".news_form").css({
+            "display": "none",
+        });
+    });*/
 });

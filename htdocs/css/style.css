@@ -23,6 +23,7 @@ img{vertical-align: middle}
         .bag .etcFix .etc_text p{width:100%; color: #fff; font-weight: 300; margin: 0 auto;}
         .bag .etcFix .etc_text ul li{width:100%; color: #fff; font-weight: 300; margin: 0 auto; list-style: none;}
             .bag .etcFix .etc_text ul li:before {content:"- ";}
+
 /*feedback*/
 .provide{height: 100%; top: 0; color: #828282; z-index: 99999; background-color: rgba(255,255,255,0.9); position: fixed; right: 240px; display: none;}
 .provide form{padding: 40px 34px;}
